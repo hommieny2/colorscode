@@ -1,4 +1,4 @@
-name: Installing 1 >
+name: Installing 4 >
 on: [push, pull_request]
 jobs:
   install:
